@@ -35,7 +35,7 @@ PersonneRepository personneRepository;
 	@Override
 	public void deletePersonne(long id) {
 		// TODO Auto-generated method stub
-		
+		personneRepository.deleteById(id);
 	}
 
 }
